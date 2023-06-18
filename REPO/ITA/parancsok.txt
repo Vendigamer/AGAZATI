@@ -1,0 +1,9 @@
+ip domain-name hackers.eu
+username admin pass remote1
+crypto key gen rsa
+1024
+ssh version 2
+line vty 0
+login local
+transport input ssh
+
